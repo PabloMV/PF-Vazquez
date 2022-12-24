@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    padding: 20px;
+    background-color: white;
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+main {
+    background-color: white;
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 10px;
+}
+
+footer {
+    padding: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
