@@ -45,3 +45,15 @@ ul {
     display: flex;
     gap: 20px;
 }
+/*-----Transformacio-----*/
+
+.imagen-principal{
+
+   transition-duration: 2s;
+      }
+
+.imagen-principal:hover{
+    transform:scaleX(0.90) scale(0.90);
+    box-shadow: 10px 10px 10px 10px;
+    
+}
