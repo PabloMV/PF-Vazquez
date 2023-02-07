@@ -1,0 +1,20 @@
+.card{
+    transition-duration: 2s;
+    &:hover{ 
+        transform: translate(10px, 5%);
+    }
+}
+.card-header {
+    background-color: $color-verde;
+    text-align: center;
+    text-decoration-style: bold;
+    }
+.card-body {
+    background-color: $color_fondoa;
+    & ul{
+        list-style: inside;
+        display: block;}
+}
+.card-footer {
+    background-color:$color-verde2;
+}

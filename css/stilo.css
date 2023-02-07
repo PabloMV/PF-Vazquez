@@ -14,6 +14,11 @@ ul {
   gap: 20px;
 }
 
+.ulclientes {
+  list-style: square;
+  display: block;
+}
+
 header {
   padding: 20px;
   background-color: white;
@@ -27,13 +32,20 @@ body {
 }
 
 footer {
-  padding: 25px;
-  background-color: white;
+  padding: 0;
+  background-color: #3a5a40;
   display: flex;
   justify-content: space-between;
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+footer Ul {
+  list-style: none;
+}
+footer Ul a {
+  color: black;
+  font-weight: bold;
 }
 
 main {
@@ -44,12 +56,41 @@ main {
   padding: 10px;
 }
 
+.card {
+  transition-duration: 2s;
+}
+.card:hover {
+  transform: translate(10px, 5%);
+}
+
+.card-header {
+  background-color: #3a5a40;
+  text-align: center;
+  text-decoration-style: bold;
+}
+
+.card-body {
+  background-color: #dad7cd;
+}
+.card-body ul {
+  list-style: inside;
+  display: block;
+}
+
+.card-footer {
+  background-color: #588157;
+}
+
+.divnosotros ul {
+  list-style: inside;
+  display: block;
+}
+
 .imagen-principal {
   transition-duration: 2s;
 }
 .imagen-principal:hover {
-  transform: scaleX(0.9) scale(0.9);
-  box-shadow: 10px 10px 10px 10px;
+  transform: translate(10px, 5%);
 }
 
 /*# sourceMappingURL=stilo.css.map */

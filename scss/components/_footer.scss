@@ -1,9 +1,18 @@
 footer {
-    padding: 25px;
-    background-color: $color-fondo;
+    padding: 0;
+    background-color: $color-verde;
     display: flex;
     justify-content: space-between;
     position: absolute;
     bottom: 0;
     width: 100%;
+
+    & Ul {
+        list-style: none;
+
+        & a {
+           color: black;
+           font-weight: bold;
+        }
+    }
 }
